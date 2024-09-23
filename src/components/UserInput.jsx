@@ -2,10 +2,10 @@ import React, { useState } from "react";
 
 function UserInput({ onChangeInput, userInput }) {
   return (
-    <section className="w-full font-poppins h-auto sm:w-8/12 md:text-lg mx-auto  p-5 flex justify-center items-center bg-gradient-to-bl from-emerald-200 to-emerald-500">
+    <section className="w-full font-poppins h-auto sm:w-8/12 md:text-lg mx-auto  py-10 flex justify-center items-center bg-gradient-to-bl from-emerald-200 to-emerald-500">
       <div className="flex flex-col gap-y-5 w-full">
-        <div className="flex justify-around  w-full">
-          <p className="flex  flex-col ">
+        <div className="flex justify-evenly px-3  bg-blue-300 ">
+          <p className="flex w-48  flex-col bg-red-200">
             <label>Initial Investment:</label>
             <input
               required
@@ -17,7 +17,7 @@ function UserInput({ onChangeInput, userInput }) {
               className="border w-32 p-1 rounded-md"
             />
           </p>
-          <p className="flex flex-col ">
+          <p className="flex w-48 flex-col items-center sm:items-start bg-red-200">
             <label>Annual Investment:</label>
             <input
               required
@@ -30,8 +30,8 @@ function UserInput({ onChangeInput, userInput }) {
             />
           </p>
         </div>
-        <div className="flex justify-around  w-full">
-          <p className="flex flex-col ">
+        <div className="flex justify-evenly px-4  bg-blue-300 ">
+          <p className=" w-48 flex flex-col bg-red-200">
             <label>Expected Return(%):</label>
             <input
               required
@@ -41,7 +41,7 @@ function UserInput({ onChangeInput, userInput }) {
               className="border w-32 p-1 rounded-md"
             />
           </p>
-          <p className="flex  flex-col ">
+          <p className="flex w-48 flex-col items-center sm:items-start bg-red-200">
             <label>Duration:</label>
             <input
               required

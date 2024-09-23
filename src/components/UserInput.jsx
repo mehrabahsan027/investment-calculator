@@ -4,8 +4,8 @@ function UserInput({ onChangeInput, userInput }) {
   return (
     <section className="w-full font-poppins h-auto sm:w-8/12 md:text-lg mx-auto  py-10 flex justify-center items-center bg-gradient-to-bl from-emerald-200 to-emerald-500">
       <div className="flex flex-col gap-y-5 w-full">
-        <div className="flex justify-evenly px-3  bg-blue-300 ">
-          <p className="flex w-48  flex-col bg-red-200">
+        <div className="flex justify-evenly px-3   ">
+          <p className="flex w-48  flex-col ">
             <label>Initial Investment:</label>
             <input
               required
@@ -17,7 +17,7 @@ function UserInput({ onChangeInput, userInput }) {
               className="border w-32 p-1 rounded-md"
             />
           </p>
-          <p className="flex w-48 flex-col items-center sm:items-start bg-red-200">
+          <p className="flex w-48 flex-col items-center sm:items-start ">
             <label>Annual Investment:</label>
             <input
               required
@@ -30,8 +30,8 @@ function UserInput({ onChangeInput, userInput }) {
             />
           </p>
         </div>
-        <div className="flex justify-evenly px-4  bg-blue-300 ">
-          <p className=" w-48 flex flex-col bg-red-200">
+        <div className="flex justify-evenly px-4   ">
+          <p className=" w-48 flex flex-col ">
             <label>Expected Return(%):</label>
             <input
               required
@@ -41,7 +41,7 @@ function UserInput({ onChangeInput, userInput }) {
               className="border w-32 p-1 rounded-md"
             />
           </p>
-          <p className="flex w-48 flex-col items-center sm:items-start bg-red-200">
+          <p className="flex w-48 flex-col items-center sm:items-start ">
             <label>Duration:</label>
             <input
               required
